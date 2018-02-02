@@ -2,6 +2,8 @@
 
 > 星级评分
 
+[在线预览](https://mqp0713.github.io/starRating/)
+
 ## Build Setup
 
 ``` bash
