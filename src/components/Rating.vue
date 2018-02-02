@@ -44,7 +44,7 @@ export default {
   methods: {
     rate(star) {
       // 设置star为数字，小于最大值并且大于等于0
-      if (typeof star && star <= this.maxStars && star >= 0) {
+      if (typeof star === 'number' && star <= this.maxStars && star >= 0) {
         this.stars = this.stars === star ? star - 1 : star
       }
     }
